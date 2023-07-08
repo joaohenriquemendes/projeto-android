@@ -9,6 +9,19 @@
     
 }
 
+@keyframes color {
+    0%{
+       color: white; 
+    }
+   50%{
+    color: black;
+   }
+
+   100%{
+    color: white;
+   }
+}
+
 :root{
     --cor0:  #C5EBD6;
     --cor1: #9AB8A7;
@@ -195,15 +208,4 @@ footer a:hover{
 }
 
 
-@keyframes color {
-    0%{
-       color: white; 
-    }
-   50%{
-    color: black;
-   }
 
-   100%{
-    color: white;
-   }
-} 
